@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contáctame</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="#" class="logo">Portafolio</a>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="projects.html">Proyectos</a>
+            <a href="skills.html">Habilidades</a>
+            <a href="contact.html" class="active">Contáctame</a>
+        </nav>
+    </header>
+
+    <!-- SECTION CONTACT -->
+    <section class="contact-section">
+        <h2 class="heading">Contáctame</h2>
+        
+        <div class="contact-container">
+            <!-- INFORMACIÓN DE CONTACTO -->
+            <div class="contact-info">
+                <h3><i class="fas fa-paper-plane"></i> ¡Hablemos!</h3>
+                <p>¿Tienes un proyecto en mente? No dudes en contactarme. Estoy siempre abierto a nuevas oportunidades y colaboraciones.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <span>armasangel193@gmail.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <span>github.com/Armasangel</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <span>linkedin.com/in/angel-antonio-armas-hernandez-80a460253/</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-icons">
+                    <a href="mailto: armasangel193@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/Armasangel" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/angel-antonio-armas-hernandez-80a460253" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- FORMULARIO DE CONTACTO -->
+            <div class="contact-form">
+                <h3><i class="fas fa-comment-dots"></i> Envíame un mensaje</h3>
+                <form action="https://formspree.io/f/xdkynode" method="POST">
+                    <div class="input-group">
+                        <input type="text" name="name" placeholder="Tu nombre completo" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    
+                    <div class="input-group">
+                        <input type="email" name="email" placeholder="tu@email.com" required>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    
+                    <div class="input-group">
+                        <input type="text" name="subject" placeholder="Asunto del mensaje" required>
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    
+                    <div class="input-group">
+                        <textarea name="message" placeholder="Tu mensaje..." rows="5" required></textarea>
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    
+                    <button type="submit" class="btn">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
